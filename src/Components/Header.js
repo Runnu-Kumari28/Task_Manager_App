@@ -26,7 +26,7 @@ const handle_Tasklist = () => {
         <div className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base text-white justify-center">
             <button onClick={handle_About} className='button_primary'>About</button>
             <button onClick={handle_CreateTask} className='button_primary'>Create-Task</button>
-            <button onClick={handle_Tasklist} className='button_primary'>Display-task</button>    
+            <button onClick={handle_Tasklist} className='button_primary'>Display-Task</button>    
         </div>
         <button className='button_primary'>Login/Register</button>
     </div>

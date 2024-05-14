@@ -7,7 +7,8 @@ export default function TaskForm({
     task, setTasks, 
     description, setDescription, 
     priority, setPriority, 
-    dueDate, setDueDate 
+    dueDate, setDueDate
+ 
 }) {  
     
     const inputTextHandler = (e) => {

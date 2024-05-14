@@ -15,6 +15,7 @@ function App() {
     const [status, setStatus] = useState('all');
     const [filteredTasks, setFilteredTasks] = useState([]);
 
+    
     useEffect(() => {
         filterHandler();
     }, [task, status]);
@@ -67,7 +68,8 @@ function App() {
                         dueDate={dueDate}
                         setDueDate={setDueDate}
                         task={task}
-                        setTasks={setTasks} />} />
+                        setTasks={setTasks} />}
+                         />
                     <Route exact path="/tasklist" element={<Tasklist 
                         task={task} 
                         setTasks={setTasks} 
