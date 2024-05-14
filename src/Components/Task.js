@@ -24,7 +24,7 @@ export default function Task({ text, eachTask, task, setTasks }) {
                 <strong className="block mb-1">Priority:</strong><span>{eachTask.priority}</span><br />
                 <strong className="block mb-1">Due Date:</strong><span>{eachTask.dueDate}</span><br />
             </li>
-            <label for="markComplete" className="mr-1 font-bold">Mark Complete</label>
+            <label htmlFor="markComplete" className="mr-1 font-bold">Mark Complete</label>
             <input type="checkbox" id="markComplete" onChange={markCompleteHandler} className="form-checkbox h-4 w-4 text-blue-500 rounded mr-5 mb-5"/>
             <button onClick={deleteHandler} className='button_primary'>Delete Task</button>
         </div>
