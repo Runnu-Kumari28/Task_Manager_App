@@ -2,13 +2,17 @@
 The purpose of this appication is to Develop a Task Manager application using ReactJS and Redux. The application will allow users to add, edit, delete, and mark tasks as completed. Additionally, features such as filtering tasks, and sorting tasks based on priority or due date will also be implemented.
 
 # Application_Flow
+![alt text](src/Resources/about-md.png)
 
 * Adding Tasks
 To add a new task, click on the "Create-Task" in the navigation bar. This will open a form where you can input the details of your task such as Title, Description, Priority and Due-Date Then Click on Add-Task
+![alt text](src/Resources/create-task.png)
 
 * Viewing and Managing Tasks
 After adding tasks, navigate to the "Disply-Task". Here, you'll see a list of all your tasks. You can mark tasks as completed or delete tasks, and also filter them based on their completion status-"All, Completed or Pending".
-
+![alt text](src/Resources/task_manager-1.png)
+![alt text](src/Resources/task-manager-2.png)
+![alt text](src/Resources/task-manager-3.png)
 * Task Component
 Each task is displayed as a card, showing the task name, description, and options to markComplete or delete the task.
 
