@@ -8,7 +8,7 @@ const statusHandler = (e) => {
 
 
     return(
-        <div>
+        <div className="flex justify-center lg:jutsify-start gap-4 flex-col">
             <div>
                 <select onChange={statusHandler} id="status" name="status">
                     <option value="">Status</option>
@@ -17,7 +17,7 @@ const statusHandler = (e) => {
                     <option value="Pending">Pending</option>
                 </select> 
             </div>
-            <ul>
+            <ul className="flex flex-row flex-wrap gap-4">
                 {filterTasks.map(eachTask => (
                     <Task task={task} setTasks={setTasks} key={eachTask.id} eachTask={eachTask} text={eachTask.text} />
                 ))}
