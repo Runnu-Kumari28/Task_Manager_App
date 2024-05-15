@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../Resources/display-task.jpg'
+import image from '../Resources/Master-Task.png'
 
 export default function About() {
 
@@ -7,8 +7,9 @@ export default function About() {
         <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-start" >
             <div className=" w-full p-6 bg-white rounded-lg shadow-md" style={{
                     backgroundImage: `url(${image})`,
-                    backgroundSize: "cover",
+                    backgroundSize: "contain",
                     backgroundRepeat: "no-repeat",
+                    backgroundPosition: "right bottom"
                 }}>
                 <h1 className="text-2xl font-bold mb-4">Task Manager App Flow</h1>
                 <p className="text-gray-900 mb-4">
